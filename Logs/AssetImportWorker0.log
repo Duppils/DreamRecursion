@@ -1,580 +1,135 @@
 Using pre-set license
-Desktop is 3840 x 2160 @ 60 Hz
+Built from '2021.1/release' branch; Version is '2021.1.4f1 (4cd64a618c1b) revision 5035594'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-Unity
+C:\Program Files\Unity\2021.1.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/home/ejun/Code/personal/DreamRecursion
+E:/Zenche/UnityGames/DreamRecursion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45253
-Successfully changed project path to: /home/ejun/Code/personal/DreamRecursion
-/home/ejun/Code/personal/DreamRecursion
+55700
+Successfully changed project path to: E:/Zenche/UnityGames/DreamRecursion
+E:/Zenche/UnityGames/DreamRecursion
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84,58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
+Refreshing native plugins compatible for Editor in 124.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
-[Subsystems] Discovering subsystems at path /home/ejun/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/ejun/Code/personal/DreamRecursion/Assets
-GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_ARB_get_proc_address 
-Renderer: GeForce GTX 1650/PCIe/SSE2
-Vendor:   NVIDIA Corporation
-Version:  4.5.0 NVIDIA 450.102.04
-GLES:     0
- GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
-t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
-ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
-RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
-ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
-GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
-L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equati
-on_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalfor
-mat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_vie
-w_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_s
-hadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1155652568
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Zenche/UnityGames/DreamRecursion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = '/home/ejun/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
-Mono path[1] = '/home/ejun/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/home/ejun/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56510
+Mono path[0] = 'C:/Program Files/Unity/2021.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/ejun/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001157 seconds.
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 84,56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
+Register platform support module: C:/Program Files/Unity/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002648 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,274 seconds
+- Completed reload, in  1.673 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,002113 seconds.
+Registered in 0.002995 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 85,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,999 seconds
+- Completed reload, in  1.492 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123,4 MB.
-System memory in use after: 123,6 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3826.
-Total: 3,186971 ms (FindLiveObjects: 0,257225 ms CreateObjectMapping: 0,146042 ms MarkObjects: 2,604498 ms  DeleteObjects: 0,178415 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3834.
+Total: 2.597300 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.147400 ms MarkObjects: 2.071700 ms  DeleteObjects: 0.130100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(cc591d4e0b71678b28547d8a51ca0fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(cc591d4e0b71678b28547d8a51ca0fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f7d29a3d663e86b828f3a89f3c93a7') in 0,004023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1,837908 seconds.
-  path: Assets/Art/cave.png
-  artifactKey: Guid(a58443075da255748886302aa12e359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/cave.png using Guid(a58443075da255748886302aa12e359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536c8960a50ca5a0d5889d59b3462c3') in 0,090301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000237 seconds.
   path: Assets/Art/font.png
   artifactKey: Guid(60b93863505601e4c873a7dd29a35390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/font.png using Guid(60b93863505601e4c873a7dd29a35390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc44800f9104d6b8752fdeae774f698') in 0,007467 seconds 
+Start importing Assets/Art/font.png using Guid(60b93863505601e4c873a7dd29a35390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ce92a67b46e06cea5de6153016be45') in 0.181403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000200 seconds.
+  Time since last request: 0.000206 seconds.
   path: Assets/Art/Inner.png
   artifactKey: Guid(4aa6e99c93a048b4bbf37766ee9c0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Inner.png using Guid(4aa6e99c93a048b4bbf37766ee9c0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa9fa70bdb95e28f05563e7a64db84') in 0,012350 seconds 
+Start importing Assets/Art/Inner.png using Guid(4aa6e99c93a048b4bbf37766ee9c0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a0f3b6e042ccd19ca2d67170edf1b6') in 0.042056 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000249 seconds.
+  Time since last request: 0.000198 seconds.
   path: Assets/Art/NPC_test.png
   artifactKey: Guid(0eed4c5b01375f44fbcce0389fbef2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/NPC_test.png using Guid(0eed4c5b01375f44fbcce0389fbef2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27efda934bcde24204aff0be30683e15') in 0,012531 seconds 
+Start importing Assets/Art/NPC_test.png using Guid(0eed4c5b01375f44fbcce0389fbef2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9939580605e0105c4f7995d096510947') in 0.023300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000210 seconds.
+  Time since last request: 0.000202 seconds.
   path: Assets/Art/objects.png
   artifactKey: Guid(4161b2416530e9841bbaa0ce0b27d152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/objects.png using Guid(4161b2416530e9841bbaa0ce0b27d152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5816e47025cdc522240e4e8a9fda87') in 0,011639 seconds 
+Start importing Assets/Art/objects.png using Guid(4161b2416530e9841bbaa0ce0b27d152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085595eeb2895ef74dc7847464c0825d') in 0.025635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000236 seconds.
-  path: Assets/Art/log.png
-  artifactKey: Guid(c7100dd22dbc449499816f5a5746dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/log.png using Guid(c7100dd22dbc449499816f5a5746dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ededd809de02bc2a9b9dd90a24f72c67') in 0,011506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000240 seconds.
-  path: Assets/Art/Overworld.png
-  artifactKey: Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Overworld.png using Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204cca0ba7d350f6dd172cf6e9c71129') in 0,011366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000233 seconds.
-  path: Assets/Art/character.png
-  artifactKey: Guid(d85b8ef0fc2878241b8f67da34ee5a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/character.png using Guid(d85b8ef0fc2878241b8f67da34ee5a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796bfc7c7925d4500087614d28fc129b') in 0,337519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153,719816 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e558bc6653763a4ba7e1af0f37f22b09') in 0,000575 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002612 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,857 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,7 MB.
-System memory in use after: 129,8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3969.
-Total: 3,033817 ms (FindLiveObjects: 0,253315 ms CreateObjectMapping: 0,130369 ms MarkObjects: 2,579013 ms  DeleteObjects: 0,070262 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002153 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,6 MB.
-System memory in use after: 129,8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3981.
-Total: 3,297006 ms (FindLiveObjects: 0,289857 ms CreateObjectMapping: 0,141906 ms MarkObjects: 2,786207 ms  DeleteObjects: 0,078010 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,888 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,7 MB.
-System memory in use after: 129,8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3985.
-Total: 3,111219 ms (FindLiveObjects: 0,253387 ms CreateObjectMapping: 0,096139 ms MarkObjects: 2,687077 ms  DeleteObjects: 0,073535 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 492,001322 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b263b59ce62a463b083a3c6a5ce8515c') in 0,003577 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002183 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,845 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,7 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3989.
-Total: 3,191444 ms (FindLiveObjects: 0,357335 ms CreateObjectMapping: 0,138406 ms MarkObjects: 2,624907 ms  DeleteObjects: 0,069747 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002153 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,7 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3993.
-Total: 3,626041 ms (FindLiveObjects: 0,309866 ms CreateObjectMapping: 0,169238 ms MarkObjects: 3,071057 ms  DeleteObjects: 0,074785 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,829 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,7 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3997.
-Total: 3,267280 ms (FindLiveObjects: 0,289747 ms CreateObjectMapping: 0,153245 ms MarkObjects: 2,752839 ms  DeleteObjects: 0,070448 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 635,683980 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(825535ce8aa77f835a4ea29327434f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(825535ce8aa77f835a4ea29327434f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff76a6cffa656b17ff6576c9dc6e26c') in 0,004255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13,010448 seconds.
-  path: Assets/Scripts/Movement.cs
-  artifactKey: Guid(685e76a6c97c105c99c920cfee7540c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement.cs using Guid(685e76a6c97c105c99c920cfee7540c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0475e528006e723c87cc67726c37f8c') in 0,001814 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002497 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,902 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4002.
-Total: 3,276951 ms (FindLiveObjects: 0,301105 ms CreateObjectMapping: 0,166293 ms MarkObjects: 2,729568 ms  DeleteObjects: 0,078865 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,859 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4005.
-Total: 3,813742 ms (FindLiveObjects: 0,328599 ms CreateObjectMapping: 0,245987 ms MarkObjects: 3,144828 ms  DeleteObjects: 0,079696 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17,287394 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c605baf66e3f40d5bfe05dae0420540') in 0,004141 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002432 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,857 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4009.
-Total: 3,364115 ms (FindLiveObjects: 0,307045 ms CreateObjectMapping: 0,142927 ms MarkObjects: 2,836924 ms  DeleteObjects: 0,076173 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 376,100927 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbfdc629a8659828af9741c5d7568bc') in 0,003980 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002103 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,886 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 129,9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4013.
-Total: 3,994334 ms (FindLiveObjects: 0,381785 ms CreateObjectMapping: 0,466184 ms MarkObjects: 3,028489 ms  DeleteObjects: 0,116985 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 224,857926 seconds.
-  path: Assets/Animations/New Animation.anim
-  artifactKey: Guid(ee9bd4e5cb17f3940814a17600fb557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/New Animation.anim using Guid(ee9bd4e5cb17f3940814a17600fb557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc309e071c50fcb105923d1514156f') in 0,011863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2,082729 seconds.
-  path: Assets/Animations/player.controller
-  artifactKey: Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/player.controller using Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0667657ed5a30a2b6a9049687b1f69b7') in 0,003164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8,272325 seconds.
-  path: Assets/Animations/idleDown.anim
-  artifactKey: Guid(ee9bd4e5cb17f3940814a17600fb557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/idleDown.anim using Guid(ee9bd4e5cb17f3940814a17600fb557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4043ce31419675275a5a906e4a3ad471') in 0,001015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 217,042609 seconds.
+  Time since last request: 0.000197 seconds.
   path: Assets/Art
   artifactKey: Guid(e59c936ed3877fa16807757f14c958db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(e59c936ed3877fa16807757f14c958db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b04369ff2a144acb97487bbc729c45') in 0,002218 seconds 
+Start importing Assets/Art using Guid(e59c936ed3877fa16807757f14c958db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42304beceaaa7d29ff984154a547b362') in 0.006444 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 115,584876 seconds.
-  path: Assets/Animations/idleLeft.anim
-  artifactKey: Guid(78484d8422944cb91bddc5c3044e14ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/idleLeft.anim using Guid(78484d8422944cb91bddc5c3044e14ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf44090b4e39c0ac50d53897a94c38c') in 0,002215 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002539 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,954 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 130,0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4017.
-Total: 3,571395 ms (FindLiveObjects: 0,390699 ms CreateObjectMapping: 0,182802 ms MarkObjects: 2,920852 ms  DeleteObjects: 0,076124 ms)
-
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/log.png
+  artifactKey: Guid(c7100dd22dbc449499816f5a5746dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/log.png using Guid(c7100dd22dbc449499816f5a5746dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7072df81bf3493abfb43d812ece73') in 0.048700 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 894,935538 seconds.
-  path: Assets/Animations/player.controller
-  artifactKey: Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/player.controller using Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc7b42902786697c9ab5f1d302e6e16') in 0,012892 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,928 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 130,0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4021.
-Total: 3,151689 ms (FindLiveObjects: 0,311164 ms CreateObjectMapping: 0,108704 ms MarkObjects: 2,641107 ms  DeleteObjects: 0,090055 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,901 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129,8 MB.
-System memory in use after: 130,0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4025.
-Total: 3,238580 ms (FindLiveObjects: 0,313059 ms CreateObjectMapping: 0,113290 ms MarkObjects: 2,736813 ms  DeleteObjects: 0,074105 ms)
-
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/Overworld.png
+  artifactKey: Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Overworld.png using Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732f0f3f9830924aad22c5f45db3154') in 0.044583 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 939,824538 seconds.
-  path: Assets/Animations/player.controller
-  artifactKey: Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/player.controller using Guid(bd9d1e407cf40ad4090cfe8c25aa1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca5b74379e79f85135ce79be564b747') in 0,012455 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/cave.png
+  artifactKey: Guid(a58443075da255748886302aa12e359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/cave.png using Guid(a58443075da255748886302aa12e359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758bc57a6ab4e1e6a2edb51f5b4af5ae') in 0.023534 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 153,954171 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535412ee30d1e2b0e0e416a74858376d') in 0,001141 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,875 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130,3 MB.
-System memory in use after: 130,5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4029.
-Total: 3,271879 ms (FindLiveObjects: 0,326134 ms CreateObjectMapping: 0,167873 ms MarkObjects: 2,700222 ms  DeleteObjects: 0,076374 ms)
-
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/character.png
+  artifactKey: Guid(d85b8ef0fc2878241b8f67da34ee5a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/character.png using Guid(d85b8ef0fc2878241b8f67da34ee5a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f1b3796f00d23e25228bc5fcdd41fd') in 0.114931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48,569271 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(33d40a83c917aba4dbde9cf613dfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4d7379fccbebd2e069a738a5e356de') in 0,003916 seconds 
+  Time since last request: 76.333319 seconds.
+  path: Assets/Art/Overworld.png
+  artifactKey: Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Overworld.png using Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d881f72d49c40a61529debb7788069') in 0.012308 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,882 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130,3 MB.
-System memory in use after: 130,5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4033.
-Total: 3,411471 ms (FindLiveObjects: 0,255703 ms CreateObjectMapping: 0,155194 ms MarkObjects: 2,924796 ms  DeleteObjects: 0,074855 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002435 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,914 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130,4 MB.
-System memory in use after: 130,5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4037.
-Total: 3,731095 ms (FindLiveObjects: 0,330439 ms CreateObjectMapping: 0,186815 ms MarkObjects: 3,058909 ms  DeleteObjects: 0,154035 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002243 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,016 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130,4 MB.
-System memory in use after: 130,6 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4041.
-Total: 3,188421 ms (FindLiveObjects: 0,299054 ms CreateObjectMapping: 0,152283 ms MarkObjects: 2,660701 ms  DeleteObjects: 0,075381 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,002270 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0,901 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130,4 MB.
-System memory in use after: 130,6 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4045.
-Total: 3,613412 ms (FindLiveObjects: 0,267042 ms CreateObjectMapping: 0,148598 ms MarkObjects: 3,113379 ms  DeleteObjects: 0,082436 ms)
-
+Received Import Request.
+  Time since last request: 64.032678 seconds.
+  path: Assets/Art/Overworld.png
+  artifactKey: Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Overworld.png using Guid(e043033983295a947818715cb8596ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff32c999c039b88a7790f554bec18ab') in 1.303084 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
