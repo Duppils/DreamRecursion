@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         // NOTE when not raw, movement is floaty and iterpolates instead of instant change.
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        movement.Normalize();
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
