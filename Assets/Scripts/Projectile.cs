@@ -12,14 +12,14 @@ public class Projectile : MonoBehaviour
         rb.velocity = transform.right * speed;
     }
 
-    // private void OnTriggerEnter2D(Collider2D other)
-    // {
-    //     if (other.gameObject.tag == "Enemy")
-    //     {
-    //         // other.gameObject.DealDamage(damage);
-    //         Debug.Log("Enemy hit: " + other.name);
-    //     }
-    //     Destroy(gameObject);
-    // }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            // other.gameObject.DealDamage(damage);
+            Debug.Log("Enemy hit: " + other.name);
+        }
+        // Destroy(gameObject);
+    }
 
 }
