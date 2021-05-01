@@ -6,26 +6,32 @@ public class PlayerAttack : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public float fireCooldown = 0.2f;
     public Camera cam;
     public Rigidbody2D rb;
     Vector2 mousePos;
+    bool fireOffCooldown = true;
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
-            Shoot();
+            StartCoroutine(Shoot());
         }
 
     }
 
-    void Shoot()
+    IEnumerator Shoot()
     {
-        Vector2 lookDirection = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
-        Quaternion target = Quaternion.Euler(0, 0, angle);
-        Instantiate(bulletPrefab, firePoint.position, target);
+        if (fireOffCooldown){
+            fireOffCooldown = false;
+            Vector2 lookDirection = mousePos - rb.position;
+            float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+            Quaternion target = Quaternion.Euler(0, 0, angle);
+            Instantiate(bulletPrefab, firePoint.position, target);
+            yield return new WaitForSeconds(fireCooldown);
+            fireOffCooldown = true;
+        }
     }
 }

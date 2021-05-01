@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float speed = 20f;
-    public int damage = 2;
+    public int damage = 1;
     public float duration = 1f;
     public Rigidbody2D rb;
     public string sourceTag;
@@ -18,7 +18,7 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         string otherTag = other.gameObject.tag;
-        if (otherTag != sourceTag){
+        if ((otherTag != sourceTag) & (otherTag != gameObject.tag)){
             Debug.Log("Hit: " + other.name);
             Defense defense = other.GetComponent<Defense>();
             if (defense != null){

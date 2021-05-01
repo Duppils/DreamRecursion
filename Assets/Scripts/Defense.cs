@@ -14,13 +14,11 @@ public class Defense : MonoBehaviour
     }
 
     void Die(){
-        GameObject destroyTarget = transform.parent.gameObject;
-        if (destroyTarget == null){
-            Destroy(gameObject);
-        } else {
-            Destroy(destroyTarget);
+        if (gameObject.tag == "Player"){
+            Debug.Log("You Lose");
+            Application.Quit();
         }
-        
+        Destroy(gameObject);
     }
 }
 
