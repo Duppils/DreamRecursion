@@ -9259,7 +9259,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &906327340
+--- !u!1001 &898596564
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9272,11 +9272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2331563539808866535, guid: 449a774ae9c1a424596dc0210c623c3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.63
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2331563539808866535, guid: 449a774ae9c1a424596dc0210c623c3b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.35
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2331563539808866535, guid: 449a774ae9c1a424596dc0210c623c3b, type: 3}
       propertyPath: m_LocalPosition.z
