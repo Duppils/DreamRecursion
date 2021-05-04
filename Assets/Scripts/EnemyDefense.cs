@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Defense : MonoBehaviour
+public class EnemyDefense : Defense
 {
-    public int health;
+    public int maxHealth = 100;
+    public int currentHealth;
 
-    public void TakeDamage(int damage){
-        health -= damage;
-        if (health < 1){
+    void Start(){
+        currentHealth = maxHealth;
+    }
+
+    public override void TakeDamage(int damage){
+        currentHealth -= damage;
+        if (currentHealth < 1){
             Die();
         }
     }

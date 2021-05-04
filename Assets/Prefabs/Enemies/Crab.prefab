@@ -93,11 +93,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3902960072398498095}
   - component: {fileID: 3180034073401004921}
-  - component: {fileID: 6454034878272361603}
   - component: {fileID: 5474811105060538117}
   - component: {fileID: 4236982996793713980}
   - component: {fileID: 6944733395312679595}
   - component: {fileID: 7895584193565476189}
+  - component: {fileID: -3106883450367717712}
   m_Layer: 0
   m_Name: Crab
   m_TagString: Enemy
@@ -146,19 +146,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.26796666, y: 0.17581737}
   m_EdgeRadius: 0
---- !u!114 &6454034878272361603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6454034878272361612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ac9b63de6e5d942971b4548682d4d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
 --- !u!114 &5474811105060538117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,3 +237,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!114 &-3106883450367717712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454034878272361612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b785693990bb0a4b9102157dc81317d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 0

@@ -22,7 +22,7 @@ public class Projectile : MonoBehaviour
             Debug.Log("Hit: " + other.name);
             Defense defense = other.GetComponent<Defense>();
             if (defense != null){
-                defense.TakeDamage(damage=damage);
+                defense.TakeDamage(damage);
                 Debug.Log(other.name + "takes " + damage + " damage.");
             }
             Destroy(gameObject);

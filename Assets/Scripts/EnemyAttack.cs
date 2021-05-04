@@ -9,7 +9,7 @@ public class EnemyAttack : MonoBehaviour
         if (other.gameObject.tag == "Player"){
             Defense defense = other.gameObject.GetComponent<Defense>();
             if (defense != null){
-                defense.TakeDamage(damage=damage);
+                defense.TakeDamage(damage);
                 Debug.Log(other.gameObject.name + "takes " + damage + " damage from gameObject.name");
             }
         }
