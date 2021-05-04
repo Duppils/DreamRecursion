@@ -428,6 +428,38 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &284973239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 284973240}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &284973240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284973239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6144323, y: 0.5501211, z: -177.98802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 439361493}
+  - {fileID: 1389025033}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314573108
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +907,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &439361493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
+  m_PrefabInstance: {fileID: 1069722630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -9359,23 +9396,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 284973240}
     m_Modifications:
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.53
+      value: 7.9155674
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.58
+      value: -5.130121
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 177.98802
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9383,15 +9420,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9725,7 +9762,7 @@ GameObject:
   - component: {fileID: 1192494699}
   m_Layer: 3
   m_Name: CollisionTilemap
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11223,6 +11260,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357327374}
   m_CullTransparentMesh: 1
+--- !u!4 &1389025033 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
+  m_PrefabInstance: {fileID: 1617206981243376449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1636504581
 GameObject:
   m_ObjectHideFlags: 0
@@ -11340,7 +11382,7 @@ GameObject:
   - component: {fileID: 1644858878}
   m_Layer: 3
   m_Name: CollisionTilemap
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14207,7 +14249,7 @@ GameObject:
   - component: {fileID: 1795154950}
   - component: {fileID: 1795154949}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Player UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14287,7 +14329,7 @@ RectTransform:
   m_Children:
   - {fileID: 1636504582}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19135,23 +19177,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 284973240}
     m_Modifications:
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.71
+      value: 8.095568
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.61
+      value: -3.160121
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 177.98802
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19159,15 +19201,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3902960072398498095, guid: ad9c7b0ecb3d2494da6a835791d1b70f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
