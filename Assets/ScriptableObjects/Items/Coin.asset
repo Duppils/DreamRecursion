@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be7eb5b094c8594da4c8e564fa8127f, type: 3}
   m_Name: Coin
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 8730819034627447983, guid: fd3882d9c20badfd384cea53d77675ee, type: 3}
   type: 2
   description: The currency used by the Empire.
